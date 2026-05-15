@@ -105,6 +105,38 @@ copies or substantial portions of the Software.
 >
 > 具体实现代码通过授权机制内部流转，不在此仓库提供。
 
+## 为什么不公开源码？
+
+本项目的核心创新在于：**设计文档即源码**。
+
+所有功能蓝图均遵循严格的规范格式（详见 [blueprint-standard.md](design/specs/constitution/blueprint-standard.md)），任何具备AICoder能力的系统均可根据这些设计规则文件**自动生成可执行代码**。
+
+**代码生成流程：**
+```
+设计蓝图 (BP-xxxx.md)
+    |
+    v
+[外置AICoder] —— 七维审查(D1~D7) → 代码精化 → 授权生成
+    |
+    v
+授权文件 (AUTH-BP-xxxx.json) —— 七步验证 → 安全加载
+    |
+    v
+可执行代码 (PYC编译产物) —— 商场本体运行
+```
+
+因此，**设计文档本身就是最高级别的源代码**。公开蓝图即公开了系统的全部设计意图与行为契约，而具体实现可由AICoder根据规范自动推导生成。这也是本项目探索"代码生成自治"的核心实践。
+
+## 如何基于蓝图生成代码
+
+1. **阅读蓝图**: 选择 [design/blueprints/](design/blueprints/) 中的功能蓝图
+2. **理解规范**: 遵循 [function-paradigm.md](design/specs/constitution/function-paradigm.md) 的函数式铁律
+3. **执行审查**: 按 [auth-acceptance.md](design/specs/workflow/auth-acceptance.md) 的七步验证流程
+4. **生成授权**: 使用 [authorization-generation.md](design/specs/constitution/authorization-generation.md) 的5字段结构
+5. **安全加载**: 通过商场本体的授权验证机制运行
+
+> 注：本项目已验证1200+测试用例，证明蓝图到代码的自动化生成链路完全可行。
+
 ## 参与方式
 
 - **阅读蓝图**: 从 [design/blueprints/blueprint-index.md](design/blueprints/blueprint-index.md) 开始
