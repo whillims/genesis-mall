@@ -1,5 +1,7 @@
 # AICoder 执行层接口深化 v1.0
 
+> **声明**: 本文档内容通过引导AI自动生成，仅供设计参考与学术交流。
+
 > **文档定位**：AICoder Worker 进程内部的**函数级精确契约**。  
 > **核心原则**：AICoder 是商场的"外脑"，其所有行为通过显式函数调用暴露；Worker 进程内禁止任何全局可变状态，所有中间数据通过栈分配或 SHM 传递。  
 > **隔离模型**：每个 Worker 进程通过 `clone(CLONE_NEWPID | CLONE_NEWNET | CLONE_NEWNS)` 创建，SHM 访问通过精确映射列表控制。

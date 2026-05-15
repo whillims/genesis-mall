@@ -1,5 +1,7 @@
 # 场景文档：SC-0004-多源融合回路
 
+> **声明**: 本文档内容通过引导AI自动生成，仅供设计参考与学术交流。
+
 **文档编号**：SC-0004  
 **场景名称**：多源融合回路 — 键盘+网络+仿真 → 数据分析Worker → Console消费者  
 **对应蓝图**：BP-0001-keyboard.md, BP-0016-network-rx.md, BP-0018-simulation.md, BP-0019-fusion-worker.md, BP-0002-console.md  

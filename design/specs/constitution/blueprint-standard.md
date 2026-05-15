@@ -1,5 +1,7 @@
 # 蓝图标准格式总则
 
+> **声明**: 本文档内容通过引导AI自动生成，仅供设计参考与学术交流。
+
 ## The Constitution of Blueprint Standard Format
 
 **版本**: v1.0

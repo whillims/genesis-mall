@@ -1,4 +1,6 @@
 # 商场模式函数范式宪章
+
+> **声明**: 本文档内容通过引导AI自动生成，仅供设计参考与学术交流。
 ## The Functional Paradigm Constitution of Mall Mode
 
 **版本**: v1.0  

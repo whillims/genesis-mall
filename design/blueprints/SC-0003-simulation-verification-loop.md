@@ -1,5 +1,7 @@
 # 场景文档：SC-0003-仿真验证回路
 
+> **声明**: 本文档内容通过引导AI自动生成，仅供设计参考与学术交流。
+
 **文档编号**：SC-0003  
 **场景名称**：仿真验证回路 — 仿真生产者 → 数据分析Worker → Console消费者  
 **对应蓝图**：BP-0018-simulation.md, BP-0017-analysis-worker.md, BP-0002-console.md  
