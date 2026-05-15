@@ -204,6 +204,17 @@ copies or substantial portions of the Software.
 
 > 注：本项目已验证1200+测试用例，证明蓝图到代码的自动化生成链路完全可行。
 
+## 发布规则
+
+本项目所有向GitHub发布的内容，均遵循严格的发布前审查机制：
+
+- **法律合规**: 不得违反国家法律法规
+- **公序良俗**: 不得影响社会公共秩序与善良风俗
+- **中立性**: 不针对任何机构、组织或个人
+- **自动审查**: 所有内容发布前经过AI自动审查
+
+详见 [PUBLISH_RULES.md](PUBLISH_RULES.md)
+
 ## 参与方式
 
 - **阅读蓝图**: 从 [design/blueprints/blueprint-index.md](design/blueprints/blueprint-index.md) 开始
