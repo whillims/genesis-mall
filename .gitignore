@@ -57,6 +57,11 @@ local-assets/cache/
 # Node模块
 node_modules/
 
+# 知识库中的构建产物和依赖
+knowledge-base/**/dist/
+knowledge-base/**/node_modules/
+knowledge-base/**/package-lock.json
+
 # 大型二进制文件
 *.exe
 *.dll
